@@ -15,3 +15,5 @@ print(team.points)  # 3
 
 team.play_game(False)
 print(team.points)  # 3
+
+test = ("testing")
