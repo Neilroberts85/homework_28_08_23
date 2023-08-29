@@ -10,13 +10,20 @@ class Team:
         self.players.append(input_new_player) 
 
     def has_player(self, input_check_player):
-        if input_check_player in self.players:
-            return True
-        else:
-            return False
+        # if input_check_player in self.players:
+        #     return True
+        # else:
+        #     return False
+
+    # # or
+        return input_check_player in self.players 
+    # or 
+
+    # def has_player(self, input_check_player):
+    #     return self.players.count(input_check_player > 0)
         
     def play_game(self, input_True_or_False):
-        if input_True_or_False == True:
+        if input_True_or_False:
             self.points += 3
         
         

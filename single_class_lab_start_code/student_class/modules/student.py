@@ -8,3 +8,5 @@ class Student:
 
     def say_favourite_language(self, input_fav_lan):
         return ("I love " + input_fav_lan)
+    
+    #   return f"I love {input_fav_lan}
